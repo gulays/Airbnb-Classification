@@ -26,7 +26,7 @@ The model will be evaluated candidate models using repeated stratified k-fold cr
 Stratified means that each fold will aim to contain the same mixture of examples by class as the entire training dataset. Repeated means that the evaluation process will be performed multiple times to help avoid fluke results and better capture the variance of the chosen model
 [link](https://machinelearningmastery.com/imbalanced-multiclass-classification-with-the-glass-identification-dataset/).
 
-# Baseline Models: kNN and RandomForest
+# Baseline Models:RandomForest
 After the cleaning the data and EDA, I select the following features for my baselining:
 
 - Host response rate, type:category - 5 levels: 100%, 85 - 99% , 50- 84%, 0-49% response level and unknows category for listings with no respoense rate information.
