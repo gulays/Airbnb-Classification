@@ -35,5 +35,13 @@ After the cleaning the data and EDA, I select the following features for my base
 - Availability over next 365 days, type: numerical
 - If the host has many listings, type: dummy - 1 if a host has number of listings more than 80% total number of listings
 
+# Grid Search for Random Forest Classifier(class_weight='balanced')
+param_grid = {'n_estimators': [100, 150, 200], 'max_features': ['auto'], 'min_samples_split': [2, 5], 'min_samples_leaf': [1, 2, 4]}
+GridSearchCV(estimator = rf, param_grid = param_grid, scoring = ftwo_scorer, cv = 3, n_jobs = -1, verbose = 2)
+                    
+Fitting 3 folds for each of 18 candidates, totalling 54 fits produces: 
+Best Score:  0.5769869763557859
+Best Param:  {'max_features': 'auto', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
+
 
 
