@@ -12,7 +12,7 @@ Occupancy level is derived from occupancy rates and divide listings as high, ave
 -- The U.S. average occupancy rate is about 46.% by April, 2021. -- An ideal occupancy rate for hotels is between 70% and 95%.
 
 Below the graph after transformation:
-![Airbnb2](images/occupancy_level.png)
+![Airbnb2](images/occupancy_nominal.png)
 
 # Classification evaluation metric
 Precision is important to categorize the listings correctly. If hosts know, their listings would create high or low occupancy, they would act differently. For example, a host with a low predicted occupancy might invest in various sources and search methods to increase the occupancy rate. So, it is important to provide the right information to the host.
