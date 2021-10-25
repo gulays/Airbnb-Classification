@@ -23,7 +23,8 @@ The other point need to be considered before picking an evaluation metric is the
 
 The model will be evaluated candidate models using repeated stratified k-fold cross-validation.
 
-Stratified means that each fold will aim to contain the same mixture of examples by class as the entire training dataset. Repeated means that the evaluation process will be performed multiple times to help avoid fluke results and better capture the variance of the chosen model. We will use three repeats(link:)[https://machinelearningmastery.com/imbalanced-multiclass-classification-with-the-glass-identification-dataset/]
+Stratified means that each fold will aim to contain the same mixture of examples by class as the entire training dataset. Repeated means that the evaluation process will be performed multiple times to help avoid fluke results and better capture the variance of the chosen model
+[link](https://machinelearningmastery.com/imbalanced-multiclass-classification-with-the-glass-identification-dataset/).
 
 # Baseline Models: kNN and RandomForest
 After the cleaning the data and EDA, I select the following features for my baselining:
