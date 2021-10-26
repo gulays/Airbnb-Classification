@@ -45,5 +45,7 @@ Fitting 3 folds for each of 18 candidates, totalling 54 fits produces:
 Best Score:  0.5769869763557859
 Best Param:  {'max_features': 'auto', 'min_samples_leaf': 2, 'min_samples_split': 5, 'n_estimators': 200}
 
+Feature importances using mean decrease in impurity from Random Forest Classifier model with the selected params:
+![Airbnb3](images/rf_base.png)
 
 
