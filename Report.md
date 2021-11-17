@@ -12,7 +12,7 @@ The distribution of occupancy rates is as follows:
 ![Airbnb1](MVP/images/occupancy_hist.png)
 
 
-Occupancy level is derived from occupancy rates and divide listings as high, average and low occupancy considering the following industry occupancy levels. 
+Occupancy level is derived from occupancy rates and divided listings as high, average and low occupancy considering the following industry occupancy levels. 
 -- The U.S. average occupancy rate is about 46.% by April, 2021. -- An ideal occupancy rate for hotels is between 70% and 95%.
 
 Below the graph after transformation:
