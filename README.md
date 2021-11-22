@@ -76,3 +76,7 @@ The most critical features affecting the occupancy level are identified as follo
 Pandas, numpy and scikit for cleaning, EDA and classification modelling.
 
 Matplotlib and seaborn for visualisations.
+
+## Communication
+
+Airbnb.pdf is the presentation of the project. DataCleaning and EDA notebooks are under MVP and the final modeling notebook is under the notebooks folder. 
