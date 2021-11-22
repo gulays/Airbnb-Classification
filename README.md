@@ -7,7 +7,7 @@ The result of the analysis will help hosts in improving their listings with the 
 Achieving higher the occupancy rates yields highre revenues to hosts and to the platform. 
 Thus, occupancy rate optimization can be used as a revenue management tool. 
 
-##Data
+## Data
 
 The data is collected from [Inside Airbnb](http://insideairbnb.com/about.html) and cover over 30K listings in New York City, till September, 2021. 
 The summary description of the dataset is as follows:
@@ -70,4 +70,5 @@ The most critical features affecting the occupancy level are identified as follo
 
 ## Tools:
 Pandas, numpy and scikit for cleaning, EDA and classification modelling.
+
 Matplotlib and seaborn for visualisations.
