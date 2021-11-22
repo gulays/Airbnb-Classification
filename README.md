@@ -15,27 +15,31 @@ The summary description of the dataset is as follows:
 - Reviews, including unique id for each reviewer and detailed comments.
 
 The features in the data set are grouped into 5 groups as follows:
--- Host related: Host response time, Host since, Host superhost ...
+- Host related: Host response time, Host since, Host superhost ...
 
--- Location related: Neighborhood, Latitude, Longitude , Neighborhood overview...
+- Location related: Neighborhood, Latitude, Longitude , Neighborhood overview...
 
--- Listings related: Property type, Rooms, Bathrooms, Accommodates  ...
+- Listings related: Property type, Rooms, Bathrooms, Accommodates  ...
 
--- Rental related: Availability 30, 90 , 365 days, Min/ Max nights, Instant Bookable, Price ...
+- Rental related: Availability 30, 90 , 365 days, Min/ Max nights, Instant Bookable, Price ...
 
--- Guest experience related: Reviews, Scores, First/Last Review ...
+- Guest experience related: Reviews, Scores, First/Last Review ...
 
 The occupancy rates for each listing is estimated as a function of the average number of reviews per month and minimum required nights assuming that 30% of the stays writes reviews.
 Occupancy level is derived from occupancy rates and divided listings as high, average and low occupancy considering the following industry occupancy levels.
--- The U.S. average occupancy rate is about 46% by April, 2021. -- An ideal occupancy rate for hotels is between 70% and 95%.
+- The U.S. average occupancy rate is about 46% by April, 2021. 
+-  An ideal occupancy rate for hotels is between 70% and 95%.
 
 
 ## Baseline Models and Evaluation Metric
 Models for baselining :
 
 -SVC
+
 -KNN 
+
 -Bagging
+
 -RandomForest
 
 The models are evaluated using repeated stratified k-fold cross-validation.Stratified means that each fold will aim to contain the same mixture of examples by class as the entire training dataset. 
