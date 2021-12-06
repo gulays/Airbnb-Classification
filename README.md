@@ -4,7 +4,7 @@
 
 This project will analyze the Airbnb listings and identify critical features that mostly affect the occupancy rate of a listing. 
 The result of the analysis will help hosts in improving their listings with the most critical features. 
-Achieving higher the occupancy rates yields highre revenues to hosts and to the platform. 
+Achieving higher the occupancy rates yields higher revenues to hosts and to the platform. 
 Thus, occupancy rate optimization can be used as a revenue management tool. 
 
 ## Data
